@@ -17,12 +17,33 @@
             <div class="row">
                 @php
                     $galeri = [
-                        '6.jpg',
-                        '20240506082636TMII_Istana_Anak-anak_Indonesia.jpg',
-                        '20240625104143nasigoreng.jpg',
-                        '20240625110507avanza.png',
-                        '20240625110507innova.jpg',
-                        '20240625110507innova.jpg',
+                        'foto (1).jpg',
+                         'foto (2).jpg',
+                          'foto (3).jpg',
+                           'foto (4).jpg',
+                            'foto (5).jpg',
+                             'foto (6).jpg',
+                              'foto (7).jpg',
+                               'foto (8).jpg',
+                                'foto (9).jpg',
+                                 'foto (10).jpg',
+                                  'foto (11).jpg',
+                        'foto (14).jpg',
+                         'foto (5).jpg',
+                          'foto (16).jpg',
+                           'foto (17).jpg',
+                            'foto (18).jpg',
+                             'foto (19).jpg',
+                              'foto (20).jpg',
+                               'foto (21).jpg',
+                                'foto (22).jpg',
+                                 'foto (23).jpg',
+                                  'foto (24).jpg',
+                                  'foto (25).jpg',
+                                  'foto (26).jpg',
+                                  'foto (27).jpg',
+                                  'foto (28).jpg',
+                                  'foto (29).jpg',
                     ];
                 @endphp
 
@@ -34,9 +55,6 @@
                                 <img src="{{ asset('foto/' . $img) }}" class="card-img-top" alt="Galeri Kegiatan"
                                     style="height: 250px; object-fit: cover; width: 100%;">
                             </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Kegiatan Yayasan</p>
-                            </div>
                         </div>
                     </div>
                 @endforeach
