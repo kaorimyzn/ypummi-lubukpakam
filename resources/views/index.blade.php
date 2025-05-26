@@ -175,11 +175,11 @@ testimoni -->
       </div>
     </div>
     <div class="row">
-     <!-- Program 1 -->
+    <!-- Program 1 -->
 <div class="col-md-6 d-flex align-items-stretch ftco-animate">
   <div class="services-2 text-center w-100 p-4 bg-light">
-    <div class="icon d-flex align-items-center justify-content-center">
-      <span class="fas fa-book-quran fa-2x"></span>
+    <div class="icon d-flex align-items-center justify-content-center mb-3">
+      <img src="{{ asset('images/quran-icon.png') }}" alt="Tahfizh Icon" width="50" height="50" fill="white">
     </div>
     <h3 class="mb-3">Tahfizh Al-Qur'an</h3>
     <p>Program unggulan menghafal Al-Qur'an sejak dini dengan metode yang menyenangkan dan terstruktur.</p>
@@ -189,13 +189,14 @@ testimoni -->
 <!-- Program 2 -->
 <div class="col-md-6 d-flex align-items-stretch ftco-animate">
   <div class="services-2 text-center w-100 p-4 bg-light">
-    <div class="icon d-flex align-items-center justify-content-center">
-      <span class="fas fa-lightbulb fa-2x"></span>
+    <div class="icon d-flex align-items-center justify-content-center mb-3">
+      <img src="{{ asset('images/entrepreneurship-icon.png') }}" alt="Entrepreneur Icon" width="50" height="50" fill="white">
     </div>
     <h3 class="mb-3">Entrepreneur Santri</h3>
     <p>Pembinaan jiwa wirausaha melalui praktik langsung seperti bisnis santri, market day, dan pelatihan usaha.</p>
   </div>
 </div>
+
       <!-- Program 3 -->
       <div class="col-md-6 d-flex align-items-stretch ftco-animate">
         <div class="services-2 text-center w-100 p-4 bg-light">
